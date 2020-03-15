@@ -1,19 +1,29 @@
 :root {
   --color-base: #282a36;
   --color-base--contrast: #f8f8f2;
-  --color-primary: #44475a;
-  --color-primary--contrast: #f8f8f2;
-  --color-primary--hover: #4d5166;
-  --color-primary--focus: #555b75;
-  --color-primary--faded: #6272a4;
-  --color-cyan: #8be9fd;
-  --color-green: #50fa7b;
-  --color-orange: #ffb86c;
-  --color-pink: #ff79c6;
-  --color-purple: #bd93f9;
-  --color-red: #f55;
-  --color-yellow: #f1fa8c;
+  --color-box: #44475a;
+  --color-box--contrast: #f8f8f2;
+  --color-primary: #ff79c6;
+  --color-primary--contrast: #643650;
+  --color-secondary: #bd93f9;
+  --color-secondary--contrast: #4f386e;
+  --color-info: #8be9fd;
+  --color-info--contrast: #2f535d;
+  --color-success: #50fa7b;
+  --color-success--contrast: #1f6d32;
+  --color-warning: #ffb86c;
+  --color-warning--contrast: #664828;
+  --color-error: #f55;
+  --color-error--contrast: rgb(107, 34, 34);
+  --color-highlight: #f1fa8c;
+  --color-highlight--contrast: #606436;
 }
 
 @tailwind base;
 @tailwind utilities;
+
+/* TODO: Create semantic shades;
+  --color-box--hover: #4d5166;
+  --color-box--focus: #555b75;
+  --color-box--faded: #6272a4;
+*/

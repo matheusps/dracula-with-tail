@@ -9,6 +9,7 @@
   "scripts": {
     "test": "exit 0",
     "build:docs": "postcss src/tailwind.css -o docs/public/dracula.with.tail.css",
+    "watch:docs": "postcss --watch src/tailwind.css -o docs/public/dracula.with.tail.css",
     "build": "postcss src/tailwind.css -o dist/dracula.with.tail.css",
     "start": "postcss --watch src/tailwind.css -o dist/dracula.with.tail.css",
     "release": "np",

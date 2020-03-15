@@ -1,4 +1,5 @@
 <script>
+  import Button from './Button.svelte'
   export let colors = [
     'primary',
     'purple',
@@ -17,4 +18,10 @@
       <li class={`text-${color} text-5xl`}>{color}</li>
     {/each}
   </ul>
+  <section>
+    <h1 class="text-5xl text-pink">Buttons example</h1>
+    {#each colors as color}
+      <Button variant={color}>{color}</Button>
+    {/each}
+  </section>
 </main>

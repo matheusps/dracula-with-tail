@@ -25,7 +25,8 @@
     "start": "postcss --watch src/tailwind.css -o dracula.with.tail.css",
     "pika": "pika",
     "release": "npm-run-all build build:docs pack",
-    "version": "npm run build"
+    "version": "npm run build",
+    "test": "exit 1"
   },
   "dependencies": {},
   "devDependencies": {

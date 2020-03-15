@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "build:docs": "postcss src/tailwind.css -o docs/public/dracula.with.tail.css",
     "build": "postcss src/tailwind.css -o dracula.with.tail.css",
     "start": "postcss --watch src/tailwind.css -o dracula.with.tail.css"
   },

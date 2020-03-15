@@ -1,0 +1,19 @@
+:root {
+  --color-base: #282a36;
+  --color-base--contrast: #f8f8f2;
+  --color-primary: #44475a;
+  --color-primary--contrast: #f8f8f2;
+  --color-primary--hover: #4d5166;
+  --color-primary--focus: #555b75;
+  --color-primary--faded: #6272a4;
+  --color-cyan: #8be9fd;
+  --color-green: #50fa7b;
+  --color-orange: #ffb86c;
+  --color-pink: #ff79c6;
+  --color-purple: #bd93f9;
+  --color-red: #f55;
+  --color-yellow: #f1fa8c;
+}
+
+@tailwind base;
+@tailwind utilities;

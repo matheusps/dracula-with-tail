@@ -1,0 +1,21 @@
+{
+  "name": "dracula-css",
+  "version": "1.0.0",
+  "description": "tailwind theme based on dracula",
+  "main": "index.js",
+  "author": "@matheusps",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "postcss src/tailwind.css -o dracula.with.tail.css",
+    "start": "postcss --watch src/tailwind.css -o dracula.with.tail.css"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint": "^13.2.1",
+    "stylelint-config-standard": "^20.0.0",
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}

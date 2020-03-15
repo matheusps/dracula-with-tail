@@ -1,6 +1,6 @@
 {
   "name": "dracula-with-tail",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "tailwind theme based on dracula",
   "main": "dist/dracula.with.tail.css",
   "author": "@matheusps",

@@ -1,5 +1,5 @@
 <script>
-  import Button from './Button.svelte'
+  import Selector from './Selector.svelte'
   export let colors = [
     'primary',
     'purple',
@@ -13,15 +13,18 @@
 </script>
 
 <main class="h-screen bg-base text-base-contrast px-5">
-  <ul>
+  <section class="mb-24">
+    <h1 class="text-6xl text-pink text-center">🦇 Dracula With Tail 🌊</h1>
+    <h2 class="text-4xl text-yellow text-center">Awesome tailwind theme</h2>
+  </section>
+
+  <!-- Selectors -->
+  <section class="flex flex-row items-center justify-center">
     {#each colors as color}
-      <li class={`text-${color} text-5xl`}>{color}</li>
-    {/each}
-  </ul>
-  <section>
-    <h1 class="text-5xl text-pink">Buttons example</h1>
-    {#each colors as color}
-      <Button variant={color}>{color}</Button>
+      <Selector variant={color}>{color}</Selector>
     {/each}
   </section>
+
+  <!-- Code -->
+
 </main>
